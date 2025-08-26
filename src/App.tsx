@@ -6,6 +6,7 @@ import EarningPotential from './components/EarningPotential';
 import LiveTradingView from './components/LiveTradingView';
 import CommunityPower from './components/CommunityPower';
 import RoadmapTimeline from './components/RoadmapTimeline';
+import SponsoredEvents from './components/SponsoredEvents';
 import Footer from './components/Footer';
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-black text-white min-h-screen overflow-x-hidden">
+    <div className="bg-black text-white min-h-screen w-full overflow-x-hidden relative">
       {/* Interactive Dynamic Background */}
       <div 
         className="fixed inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/15 via-indigo-900/15 to-black animate-gradient-shift -z-10"
@@ -133,6 +134,7 @@ function App() {
       <LiveTradingView />
       <CommunityPower />
       <RoadmapTimeline />
+      <SponsoredEvents />
       <Footer />
     </div>
   );
