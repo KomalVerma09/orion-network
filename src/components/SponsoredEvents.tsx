@@ -165,12 +165,12 @@ const SponsoredEvents = () => {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/20 rounded-3xl p-8 min-h-[500px]">
                     {/* Event Image */}
                     <div className="relative overflow-hidden rounded-2xl group">
-<img
-  src={event.image}
-  alt={event.title}
-  className="w-full h-[108px] md:h-[432px] object-cover transition-transform duration-500 group-hover:scale-110"
-/>
-
+                      <img
+                        src={event.image}
+                        alt={event.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        style={{ height: "27rem" }}
+                      />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                       
                       {/* Status Badge */}
