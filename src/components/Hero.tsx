@@ -182,8 +182,8 @@ const Hero = () => {
             <div className="flex items-center justify-center w-16 h-16 bg-indigo-500/20 rounded-xl mb-4 mx-auto group-hover:rotate-12 transition-transform">
               <DollarSign className="w-8 h-8 text-indigo-400" />
             </div>
-            <div className="text-3xl font-black text-indigo-400 mb-2">47K+</div>
-            <div className="text-gray-400">Millionaires Made</div>
+            <div className="text-3xl font-black text-indigo-400 mb-2">3K+</div>
+            <div className="text-gray-400">Community Made</div>
           </div>
         </div>
 
